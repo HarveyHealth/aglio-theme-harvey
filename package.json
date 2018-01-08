@@ -1,7 +1,7 @@
 {
-  "name": "aglio-theme-olio",
-  "version": "1.6.3",
-  "description": "Default theme for the Aglio API Blueprint renderer",
+  "name": "aglio-theme-harvey",
+  "version": "1.0.0",
+  "description": "Harvey theme for the Aglio API Blueprint renderer, just an small hack of the original by Daniel G. Taylor",
   "main": "lib/main.js",
   "scripts": {
     "build": "coffeelint src/*.coffee && coffee -o lib -c src",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielgtaylor/aglio"
+    "url": "https://github.com/HomeHero/aglio-theme-harvey"
   },
   "keywords": [
     "api",
@@ -27,12 +27,6 @@
     "parse",
     "markdown"
   ],
-  "author": "Daniel G. Taylor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danielgtaylor/aglio/issues"
-  },
-  "homepage": "https://github.com/danielgtaylor/aglio/tree/olio-theme",
   "dependencies": {
     "coffee-script": "^1.8.0",
     "highlight.js": "^8.4.0",
